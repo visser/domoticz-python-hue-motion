@@ -1,6 +1,17 @@
 # Hue Motion support for Domoticz
 This Python script is able to communicate with the Philips Hue Bridge and fetch the status of Hue Motion sensor devices including PIR, Presence, temperature, ambient light and dusk detection. It can also flash supported lights.
 
+### Understanding the variables ###
+
+light_id is a default Hue lamp, it can be set to 0 if none are available
+domoticz_ip is the local IP address of your Domoticz instance, if you use a port other than 80 then set the port number aswell (e.g. 192.168.0.2:8080)
+auth_username is your Domoticz login username, if not set it can be left empty
+auth_password is your Domoticz login password, if not set it can be left empty
+hue_ip is the local IP address of your Hue Bridge
+hue_username is the Hue Bridge authentication token
+sensor_id is the ID assigned by the Hue Bridge to your Hue Motion sensor
+idx is the ID of your Domoticz device
+
 ### Domoticz integration ###
 
 1. Put the script in your Domoticz scripts/python/... folder
