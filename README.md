@@ -16,17 +16,17 @@ This Python script is able to communicate with the Philips Hue Bridge and fetch 
 
 1. Put the script in your Domoticz scripts/python/... folder
 2. Change the default variables to match your environment:
-2.1. light_id
-2.1. domoticz_ip
-2.2. auth_username
-2.3. auth_password
-2.4. hue_ip
-2.5. hue_username
+- light_id
+- domoticz_ip
+- auth_username
+- auth_password
+- hue_ip
+- hue_username
 3. Add virtual/dummy switches in Domoticz (see https://www.domoticz.com/wiki/Wemo#Creating_Dummy_Switches) for the following sensors:
-3.1. Name: xxx (Hue/PIR), Sensor Type: Switch
+- Name: xxx (Hue/PIR), Sensor Type: Switch
 4. Open the Switches screen and edit the xxx (Hue/PIR) device
-4.1. Change the Switch Type to: Motion Sensor
-4.2. Set the Off Delay to 600 seconds
+- Change the Switch Type to: Motion Sensor
+- Set the Off Delay to 600 seconds
 5. Add a crontab entry to run hue-motion.py every 5 minutes
 
 ### Standalone usage ###
