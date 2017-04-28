@@ -1,5 +1,5 @@
 # Hue Motion support for Domoticz
-This Python script is able to communicate with the Philips Hue Bridge and fetch the status of Hue Motion sensor devices including PIR, Presence, temperature, ambient light and dusk detection. It can also flash supported lights.
+This Python script communicates with the Philips Hue Bridge to fetch the status of Hue Motion sensor devices including PIR, Presence, temperature, ambient light and dusk detection. It can also flash supported lights.
 
 ### Understanding the variables ###
 
